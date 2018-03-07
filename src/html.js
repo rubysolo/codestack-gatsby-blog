@@ -31,6 +31,7 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.headComponents}
           {css}
+          <script type="text/javascript" src="/env.js"></script>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
